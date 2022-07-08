@@ -14,12 +14,14 @@ body {
   gap: 50px;
   background-color: #1f2937;
   min-height: 25vh;
+  padding: 0px 220px 64px 220px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 32px;
 }
 
 ul {
@@ -36,8 +38,7 @@ li {
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  margin-bottom: 20px;
+  align-items: stretch;  
   gap: 24px;
 }
 
@@ -55,17 +56,16 @@ li {
   align-items: center;
   background-color: gray;
   flex: 1;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 24px;
   color: #f9faf8;
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
   margin: 0;
@@ -83,8 +83,9 @@ a {
 
 button {
   border-radius: 8px;
+  font-size: 18px;
   color: #e5e7eb;
   background-color: #3882f6;
-  padding: 8px 32px;
+  padding: 8px 40px;
   border: 0;
 }
