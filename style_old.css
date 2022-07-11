@@ -1,127 +1,155 @@
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    
-}
-
-.header-section {       
-    height: 300px; 
-    background: #1F2937;
-    color: white;
     display: flex;
-    flex-direction: column;    
-    justify-content: flex-start;
-    align-content: center;
-    margin: 0px;
-    padding: 16px;
-    gap: 16px;
-
-    
-}
-
-.header {
-    display: flex;    
+    flex-direction: column;
+  }
+  
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #1f2937;
+    min-height: 25vh;
+    padding: 0px 220px 64px 220px;
+  }
+  
+  .header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: 24px;
-    color: #F9FAF8;
-    gap: 16px;
-}
-
-.hero {
+    padding-bottom: 32px;
+  }
+  
+  ul {
     display: flex;
-    margin: 0px;
     justify-content: space-between;
-
-    padding-left: 150px;
-    padding-right: 150px;
-    gap: 50px;
-}
-
-.img-placeholder {
+    padding: 0;
+    gap: 16px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .hero {
     display: flex;
-    width: 300px;
-    height: 150px;
-    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: stretch;  
+    gap: 24px;
+  }
+  
+  .hero-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     flex: 1;
-    background: #E5E7EB;
+  }
+  
+  .img-placeholder {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.hero-body {
+    background-color: gray;
+    flex: 1;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #f9faf8;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+  }
+  
+  .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e5e7eb;
+  }
+  
+  button {
+    border-radius: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 8px 40px;
+    border: 0;
+  }
+  
+  .information {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    width: 300px;
-    height: 150px;
-    flex-shrink: 0;
-    flex: 1;
-    gap: 16px;
-}
-
-.hero-text {
-    font-size: 48px;
+    gap: 50px;  
+    min-height: 25vh;
+    padding: 32px 220px 64px 220px;
+  }
+  
+  .information-header {
+    text-align: center;
+    font-size: 36px;
     font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.secondary-text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-ul {
+    color: #1F2937;
+  }
+  
+  .information-boxes {
     display: flex;
-    gap: 15px;
-}
-
-li {
-    list-style: none;
-}
-
-li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-button {
-    padding: 8px 32px;
-    border-radius: 8px;
-    background: royalblue;    
-    color: white;
-}
-
-.features-section {
-    height: 25%;
+    gap: 50px;
+    justify-content: center;
+    padding: 0px 250px 0px 250px;
+  }
+  
+  .box {
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882f6;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .info-box {
     display: flex;
-    
-}
-
-.quotes-section {
-    height: 25%;
-    background: #E5E7EB;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px
+  }
+  
+  .info-text {
+    font-size: 15px;
+    font-weight: 300;  
+    text-align: justify;
+  }
+  
+  .quote-area {
     display: flex;
-    
-}
-
-.actions-section {
-    height: 20%;
-    display: flex;
-    
-}
-
-.footer {
-    height: 72px;
-    background: #1F2937;
-    display: flex;
-    
-}
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    min-height: 25vh;
+    padding: 32px 300px 32px 300px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+  }
+  
+  .signature {
+    font-weight: 500;
+    font-size: 25px;
+    align-self: flex-end;
+  }
+  
